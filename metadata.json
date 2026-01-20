@@ -1,0 +1,5 @@
+{
+  "name": "SMChecklist",
+  "description": "A minimalist, high-end BDSM checklist application with PDF export capabilities.",
+  "requestFramePermissions": []
+}

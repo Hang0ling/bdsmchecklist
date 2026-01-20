@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BDSM check list</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['"Noto Sans SC"', 'sans-serif'],
+            },
+            colors: {
+              paper: '#f8fafc',
+              ink: '#0f172a',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        background-color: #f8fafc;
+        color: #0f172a;
+      }
+      
+      /* Optimized Background: Static Gradients instead of heavy animated blurs */
+      .bg-gradient-mesh {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        z-index: -1;
+        background: 
+          radial-gradient(circle at 15% 15%, rgba(191, 219, 254, 0.4) 0%, transparent 40%),
+          radial-gradient(circle at 85% 85%, rgba(221, 214, 254, 0.4) 0%, transparent 40%),
+          radial-gradient(circle at 15% 85%, rgba(254, 215, 170, 0.3) 0%, transparent 40%),
+          radial-gradient(circle at 85% 15%, rgba(187, 247, 208, 0.3) 0%, transparent 40%);
+        background-color: #fff;
+      }
+
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
+    "jspdf": "https://esm.sh/jspdf@^4.0.0",
+    "jspdf-autotable": "https://esm.sh/jspdf-autotable@^5.0.7"
+  }
+}
+</script>
+</head>
+  <body>
+    <div class="bg-gradient-mesh"></div>
+    <div id="root"></div>
+  </body>
+</html>
